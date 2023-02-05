@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<renga-license xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <license-id>7fe16a3f-ebba-416e-93fe-103de8586c7a</license-id>
+  <organization>
+    <name>Возов Николай</name>
+    <inn>123456</inn>
+    <address>Пенза</address>
+    <contactInfo>nicholasz1703@gmail.com,</contactInfo>
+  </organization>
+  <non-commercial>true</non-commercial>
+  <license>
+    <renga-architecture xsi:nil="true" />
+    <renga-structure xsi:nil="true" />
+    <renga-mep xsi:nil="true" />
+    <renga>
+      <workplaces>1</workplaces>
+      <validity_of_update>2024-02-03T00:00:00</validity_of_update>
+    </renga>
+  </license>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1kCJh26q1eX1Lwc5TPa4+xT1Jx0=</DigestValue></Reference></SignedInfo><SignatureValue>b7FCIP1PjHB1vSAap4si6kTaDNI8Eu3PXMK4jfbFKJXQa7xSZFsScq/naH142xLdzsiMCKVtVALA+oAeV0TL3kaBJX9Ng8ko9HGTDAndKv26NTEddGiOaD0OB7VK99G84FaY5RzZnrpDRkO/yXTGDpZe2oUx4QuUKXQRErq4CtogwuTtHznaWhp/rILFsYLCNx6V1Xg7TGEfe48E7O9t70ouQ3eeWprY5HFbDQfCxgSibPCp7IZk4Ao52XXzdvQGnmTlmbY6IIVQ0jmkcZG/t3+IkVKrtjGtqNKLJWf3NTik9m4nHbJFFKL96yFagA/SDj3tnQ6Yqe6KcMpRSrs2aQ==</SignatureValue><KeyInfo><X509Data><X509IssuerSerial><X509IssuerName>CN=ASCON JSC Pilot</X509IssuerName><X509SerialNumber>801A6533176E3180430E73B4F8AC81DC</X509SerialNumber></X509IssuerSerial></X509Data></KeyInfo></Signature></renga-license>
