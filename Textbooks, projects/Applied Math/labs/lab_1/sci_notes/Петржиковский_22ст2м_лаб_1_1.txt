@@ -1,0 +1,71 @@
+Запуск программы:
+  загрузка исходного окружения
+--> (2+3/7+sin(%pi/2)^3)/(5*sqrt(224))
+ ans  =
+   0.0458162
+--> deff('[y]=myfunction(x)','y=x^2')
+--> myfunction(2)
+ ans  =
+   4.
+--> deff('[z]=myfunction1(x,y)','z=x^2+y^2')
+--> myfunction1(4,5)
+ ans  =
+   41.
+--> deff('[x1,x2]=myfunction2(a)','x1=sqrt(a); x2=-sqrt(a);')
+--> [x1,x2]=myfunction2(4)
+ x1  = 
+   2.
+ x2  = 
+  -2.
+--> function[y]=myfunction3(x)
+-->     y=x^3
+--> endfunction
+--> myfunction3(2)
+ ans  =
+   8.
+--> x=[-10:0.001:10];
+--> y=x^2;
+--> plot2d(x,y)
+--> x=[-10:0.001:10];
+--> y=sin(x);
+--> plot2d(x,y,style=2,axesflag=5)
+--> x=[-10:0.001:10];
+--> y=sin(x);
+--> plot2d(x,y,style=2,axesflag=5,rect=[-10,-10,10,10])
+--> x=[-10:0.001:10];
+--> y=sin(x);
+--> plot2d(x,y,style=2,axesflag=5,rect=[-10,-10,10,10]); xgrid(3)
+--> x=[-5:0.001:5]';
+--> y1=sin(x);
+--> y2=sin(2*x);
+--> y3=-x;
+--> plot2d(x,[y1 y2 y3],style=[3 4 5],axesflag=5,rect=[-5,-5,5,5]); xgrid(3)
+--> t=0:0.01:2*%pi;
+--> r=4;
+--> x=r*sin(t);
+--> y=r*cos(t);
+--> plot2d(x,y,style=2,frameflag=3,rect=[-5,-5,5,5],axesflag=5); xgrid(3)
+--> phi=0:0.01:2*%pi;
+--> rho=2*phi;
+--> clf(); xset("color",2);
+Предупреждение: Эта возможность будет навсегда удалена в Scilab 6.1.0
+
+--> polarplot(phi,rho,style=3,frameflag=3)
+--> [x,y]=meshgrid(-1:0.1:1,-1:0.1:1);
+--> z=x.^2-y.^2;
+--> mesh(x,y,z)
+--> u=[-%pi/2:%pi/50:%pi/2];
+--> v=[0:%pi/20:2*%pi];
+--> x=cos(u)'*cos(v);
+--> y=cos(u)'*sin(v);
+--> z=sin(u)'*ones(v);
+--> plot3d3(x,y,z)
+--> x=[-5:0.01:5]';
+--> subplot(2,2,1);
+--> plot2d(x,sin(x),style=3,axesflag=5,rect=[-5,-5,5,5]);
+--> subplot(2,2,2);
+--> plot2d(x,cos(x),style=3,axesflag=5,rect=[-5,-5,5,5]);
+--> subplot(2,2,3);
+--> plot2d(x,abs(x),style=3,axesflag=5,rect=[-5,-5,5,5]);
+--> subplot(2,2,4);
+--> plot2d(x,x.*sin(x),style=3,axesflag=5,rect=[-5,-5,5,5]);
