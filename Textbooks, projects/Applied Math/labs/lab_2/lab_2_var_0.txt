@@ -1,0 +1,20 @@
+
+
+Запуск программы:
+  загрузка исходного окружения
+--> function [y]=F(x)
+-->     y=sin(3*x)^2-log10(x+2)
+--> endfunction
+--> x=[-1.5:0.5:5];
+--> y=F(x);
+--> a=gca();
+--> a.x_location="origin";
+--> a.y_location="origin";
+--> xgrid();
+--> xtitle('sin(3*x)^2-log10(x+2)')
+--> plot(x,y)
+--> fsolve([1.5;2.5;3], F)
+ ans  =
+   1.3158645
+   2.4048605
+   2.8174089

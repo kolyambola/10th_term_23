@@ -1,16 +1,16 @@
 function [y]=F(x)
-    y=sin((x-8)^2)/3-(x-2)/5
+    y=sin(3*x)^2-log10(x+2)
 endfunction
 
-x=[-5:0.5:5];
+x=[-1.5:0.5:5];
 y=F(x);
 
 a=gca();
 a.x_location="origin";
 a.y_location="origin";
 xgrid();
-xtitle('sin((x-8)^2)/3-(x-2)/5')
+xtitle('sin(3*x)^2-log10(x+2)')
 
 plot(x,y)
 
-fsolve([1;3.5], F)
+fsolve([1.5;2.5;3], F)
