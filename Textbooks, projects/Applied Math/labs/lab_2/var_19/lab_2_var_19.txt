@@ -1,0 +1,21 @@
+
+
+Запуск программы:
+  загрузка исходного окружения
+--> function [y]=F(x)
+-->     y=sin(10*x-20)/exp(((x-2)^2)/5)+0.25*x
+--> endfunction
+--> x=[-4:0.5:4];
+--> y=F(x);
+--> a=gca();
+--> a.x_location="origin";
+--> a.y_location="origin";
+--> xgrid();
+--> xtitle('sin(10*x-20)/exp(((x-2)^2)/5)+0.25*x')
+--> plot(x,y)
+--> fsolve([1;2], F)
+на строке     2 функции F      ( C:\Users\User\AppData\Local\Temp\SCI_TMP_10648_28062\LOAD_INTO_SCILAB-5492954792586415308.sce строка 2 )
+во встроенных           fsolve 
+на строке    16 исполняемого файла C:\Users\User\AppData\Local\Temp\SCI_TMP_10648_28062\LOAD_INTO_SCILAB-5492954792586415308.sce
+
+fsolve: Несогласованные размеры по строкам/столбцам.

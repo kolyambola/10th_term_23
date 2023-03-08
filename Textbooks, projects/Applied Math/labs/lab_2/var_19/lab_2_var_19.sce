@@ -13,4 +13,4 @@ xtitle('sin(10*x-20)/exp(((x-2)^2)/5)+0.25*x')
 
 plot(x,y)
 
-//fsolve([1;3], F)
+fsolve([1;2], F)
