@@ -1,0 +1,28 @@
+Запуск программы:
+  загрузка исходного окружения
+--> a=0.14;
+--> b=3.67;
+--> x=a:b;
+--> y=1/(sin(log(sqrt(5*x-x^2))/cos(3*x)));
+--> inttrap(x,y)
+на строке    14 функции inttrap ( C:\Program Files\scilab-6.1.1\modules\differential_equations\macros\inttrap.sci строка 26 )
+на строке     6 исполняемого файла C:\Users\User\AppData\Local\Temp\SCI_TMP_8904_1722\LOAD_INTO_SCILAB-9023737216878737122.sce
+
+inttrap: Неверный размер входных параметров: ожидался одинаковый размер.
+--> h=0.1;
+--> x=a:h:b;
+--> y=1/(sin(log(sqrt(5*x-x^2))/cos(3*x)));
+--> inttrap(y)
+ ans  =
+   0.
+--> integrate('1/(sin(log(sqrt(5*x-x^2))/cos(3*x)))','x',0.14,3.67)
+на строке    76 функции integrate ( C:\Program Files\scilab-6.1.1\modules\differential_equations\macros\integrate.sci строка 88 )
+на строке    18 исполняемого файла C:\Users\User\AppData\Local\Temp\SCI_TMP_8904_1722\LOAD_INTO_SCILAB-3678549471977324211.sce
+
+intg: Error: Интеграл вероятно расходится или медленно сходится.
+
+--> deff('y=g(x)','y=1/(sin(log(sqrt(5*x-x^2))/cos(3*x)))');
+--> intg(0.14,3.67,g)
+на строке    21 исполняемого файла C:\Users\User\AppData\Local\Temp\SCI_TMP_8904_1722\LOAD_INTO_SCILAB-4163869270255557742.sce
+
+intg: Error: Интеграл вероятно расходится или медленно сходится.
