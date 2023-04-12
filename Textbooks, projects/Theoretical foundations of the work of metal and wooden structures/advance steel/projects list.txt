@@ -1,7 +1,7 @@
-Petrzhikovsky - l3 complated 
-Ratnikova - l3 complated
-Rodionova - l3 complated
+Petrzhikovsky - l4 complated 
+Ratnikova - l4 complated
+Rodionova - l5 complated
 Kravchenko - l3 complated
-Isaychev
-Tegetashvili
-Stolyarova
+Isaychev - l5 complated
+Tegetashvili - l3 complated
+Stolyarova - l4 complated
