@@ -1,14 +1,4 @@
 [ColorScale_000]
-ScaleID_infoType = 559
-ScaleID_rightPartNumber = -1
-ScaleID_factorType = 0
-ScaleID_factorSubType = 0
-Name = Результаты экспертизы
-InfoTypeMathName = {Критический фактор Kmax}
-Mode = 4
-IsZeroEpsilonEnabled = 1
-Epsilon = 0.0099999997764826
-[ColorScale_001]
 ScaleID_infoType = 119
 ScaleID_rightPartNumber = -1
 ScaleID_factorType = 0
@@ -17,7 +7,7 @@ Name = Жесткости
 InfoTypeMathName = 
 Mode = 0
 Row_000_Key = 00000000
-Row_000_bEnabled = 1
+Row_000_bEnabled = 0
 Row_000_Color = 255,255,0
 Row_001_Key = 01000000
 Row_001_bEnabled = 1
