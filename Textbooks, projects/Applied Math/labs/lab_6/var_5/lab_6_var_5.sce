@@ -1,15 +1,4 @@
-//1
-//2x^2+xy+3y^2
-function yd=f(t,x),yd=2*x^2+x*t+3*t^2,endfunction;
-
-x0=1.2;
-t0=2;
-t=2:0.1:3;
-
-//y=ode(x0,t0,t,f);
-//plot(t,y);
-
-//2 mkr
+//mkr
 deff('[y]=p(x)','y=2.3')
 deff('[y]=q(x)','y=0.45')
 deff('[y]=f(x)','y=1.3*x')

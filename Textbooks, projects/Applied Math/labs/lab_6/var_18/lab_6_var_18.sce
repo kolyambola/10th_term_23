@@ -1,14 +1,3 @@
-//1
-//cos(4.5x-y^3)-1.3
-function yd=f(t,x),yd=2*x^2+x*t+3*t^2,endfunction;
-
-x0=1.2;
-t0=2;
-t=2:0.1:3;
-
-//y=ode(x0,t0,t,f);
-//plot(t,y);
-
 //2 mkr
 deff('[y]=p(x)','y=-(1.2*x^2)')
 deff('[y]=q(x)','y=0.17*(x^2-1.3)')

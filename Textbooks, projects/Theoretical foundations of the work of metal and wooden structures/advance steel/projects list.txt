@@ -1,7 +1,8 @@
-Petrzhikovsky - l4 complated 
-Ratnikova - l4 complated
-Rodionova - l4 complated
+Petrzhikovsky - l5 complated 
+Ratnikova - l5 complated
+Rodionova - l5 complated
 Kravchenko - l5 complated
-Isaychev - l4 complated
-Tegetashvili - l4 complated
-Stolyarova - l4 complated
+Isaychev - l5 complated
+Tegetashvili - l5 complated
+Stolyarova - l5 complated
+Mebaduri - 0
