@@ -8,7 +8,7 @@ Vera - completed - paid
 Kuryaeva - completed - paid
 Kolya - completed - paid
 Vovik - completed - paid
-Saidzhonov - completed
+Saidzhonov - completed - paid
 Yana - completed - paid
 Ruslan - completed - paid
 Maratik - completed - paid
@@ -17,6 +17,6 @@ Arisha - completed - paid
 Bukin - completed - paid
 Ovsov - completed - paid
 Mebaduri - completed - paid
-Egorchev - completed
+Egorchev - completed - paid
 Bykov - completed - paid
 
