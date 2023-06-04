@@ -1,6 +1,6 @@
 Petrzhikovsky - completed 
 Ratnikova - completed - paid
-Rodionova - completed
+Rodionova - completed - paid
 Malkin - completed - paid
 Kravchenko - completed - paid
 Isaychev - completed - paid
@@ -11,5 +11,5 @@ Akobyanchik - completed - paid
 Mebaduri - completed - paid
 Kokorina - completed - paid
 Egorchev - completed - paid
-Bykov - 
+Bykov - completed - paid
 Antropova - completed - paid
