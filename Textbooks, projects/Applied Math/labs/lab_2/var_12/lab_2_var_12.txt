@@ -1,0 +1,13 @@
+
+
+Запуск программы:
+  загрузка исходного окружения
+--> function [y]=F(x)
+-->     y=cos(((x+2)^2)/2)*log((x+3)/2)
+--> endfunction
+--> x=[-2:0.5:5];
+--> y=F(x);
+на строке     2 функции F ( C:\Users\User\AppData\Local\Temp\SCI_TMP_5416_18657\LOAD_INTO_SCILAB-6526148630851852560.sce строка 2 )
+на строке     6 исполняемого файла C:\Users\User\AppData\Local\Temp\SCI_TMP_5416_18657\LOAD_INTO_SCILAB-6526148630851852560.sce
+
+Несогласованные размеры по строкам/столбцам.

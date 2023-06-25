@@ -1,6 +1,6 @@
 Malkin - completed - paid
 Ratnikova - completed - paid
-Petr - completed
+Petr - completed - paid
 Rodionova - completed - paid
 Latyshov - completed - paid
 Viktoria - completed - paid
@@ -19,5 +19,8 @@ Ovsov - completed - paid
 Mebaduri - completed - paid
 Egorchev - completed - paid
 Bykov - completed - paid
-Binyominushka - 
+Binyominushka - completed - paid
+Sharova - completed - paid
+Shvoryak - completed - paid
+Garkin - 
 
